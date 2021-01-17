@@ -13,8 +13,8 @@ from sklearn.metrics import accuracy_score
 
 ## Read csvs
 
-train_df = pd.read_csv('train_ml.csv', index_col=0)
-test_df = pd.read_csv('test_ml.csv', index_col=0)
+train_df = pd.read_csv('train_ml_4000.csv', index_col=0)
+test_df = pd.read_csv('test_ml_1700.csv', index_col=0)
 
 ## Filtering column "mail_type"
 train_x = train_df[['mail_type']]
